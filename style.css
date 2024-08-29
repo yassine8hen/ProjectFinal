@@ -1,0 +1,178 @@
+.video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    
+}
+#Git{
+    display: flex;
+    font-size: 32px;
+    justify-content: center;
+    margin-bottom:50px; 
+}
+
+i #Fa{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    left: .5rem;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.Box{
+    background-color:transparent;
+    backdrop-filter: blur(20px);
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0,0,0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 540px;
+}
+.Log {
+     width: 420px;
+     color: #ffffff;
+     height: 540px;
+}
+.Log h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.Pass{
+    width: 98%;
+    height: 150px;
+    text-transform: capitalize;
+    color: var(--titleColor);
+}
+.Box input {
+    width: 97%;
+    height: 32px;
+    margin: 30px 0;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255,.5);
+    border-radius: 20px;
+    padding: 20 28px 0 50px;
+}
+.Box .icon-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: black;
+    width: 45px;
+    height: 45px;
+    font-size: 2em;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    z-index: 1;
+}
+.Box input::placeholder{
+    color: #ffffff;
+}
+.Lab {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 400;
+    margin: -15px 0 15px;
+}
+.Lab a {
+    text-decoration: none;
+    color: rgb(73, 67, 67);
+}
+.Lab a:hover{
+       text-decoration: underline;
+       color: rgb(207, 48, 48);
+}
+.btn {
+    width: 90%;
+    height: 400px;
+    background-color: #162938;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.RE{
+    font-size: .9em;
+    color: #c78812;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+}
+.RE a{
+    text-decoration: none;
+    color: bisque;
+    font-weight: 600;
+}
+div.Box2 {
+    position: absolute;
+    transform: translateX(400px);
+}
+.RE a:hover{
+    text-decoration: underline;
+    color: azure;
+}
+.Box2{
+    background-color:transparent;
+    backdrop-filter: blur(20px);
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0,0,0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    display: none;
+}
+.Box2 input::placeholder{
+    color: #ffffff;
+}
+.Box2 input {
+    width: 97%;
+    height: 32px;
+    margin: 30px 0;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255,.5);
+    border-radius: 20px;
+    padding: 20 28px 0 50px;
+}
+.Box2 .icon-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: black;
+    width: 45px;
+    height: 45px;
+    font-size: 2em;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    z-index: 1;
+}
